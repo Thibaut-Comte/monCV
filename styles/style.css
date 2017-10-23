@@ -1,0 +1,48 @@
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+p, ul {
+    font-family: 'Ubuntu', sans-serif;
+}
+header {
+    background-image: url("../img/fondHeader.jpg");
+    text-shadow: 2px 2px black;
+    color: white;
+    /*font-family: , cursive;*/
+}
+main {
+    background-color: #8bbee3;
+}
+
+
+header a {
+    color: white;
+    text-decoration: none;
+    text-shadow: 2px 2px black;
+}
+
+header a:hover {
+    background: white;
+    transition: all 100ms;
+    text-shadow: none;
+    border-radius: 5px;
+}
+
+
+.listcomp {
+    list-style-type: none;
+}
+
+#presentation {
+    padding-top: 3%;
+}
+
+#profil {
+    width: 70%;
+}
+
+.loisirs ul li {
+    display: inline;
+    text-decoration: none;
+}
